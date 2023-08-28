@@ -1,0 +1,24 @@
+version: '3'
+
+networks:
+    rabbit-network:
+        driver: bridge
+
+services:
+    rabbitmq:
+        image: rabbitmq:3-management
+        hostname: rabbitmq
+        container_name: rabbitmq
+        ports:
+            - 11111:15671
+            - 11112:15672
+            - 5551:5671
+            - 5552:5672
+        environment:
+            RABBITMQ_DEFAULT_USER: algo
+            RABBITMQ_DEFAULT_PASS: algo
+            RABBITMQ_DEFAULT_VHOST: /
+            RABBITMQ_ERLANG_COOKIE: SWQOKODSQALRPCLNMEQG
+        volumes:
+            - ./broker_data:/mounted_volume
+

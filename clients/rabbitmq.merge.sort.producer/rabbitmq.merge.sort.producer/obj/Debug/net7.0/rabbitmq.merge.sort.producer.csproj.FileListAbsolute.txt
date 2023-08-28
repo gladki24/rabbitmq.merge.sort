@@ -1,0 +1,17 @@
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\bin\Debug\net7.0\rabbitmq.merge.sort.producer.exe
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\bin\Debug\net7.0\rabbitmq.merge.sort.producer.deps.json
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\bin\Debug\net7.0\rabbitmq.merge.sort.producer.runtimeconfig.json
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\bin\Debug\net7.0\rabbitmq.merge.sort.producer.dll
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\bin\Debug\net7.0\rabbitmq.merge.sort.producer.pdb
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.csproj.AssemblyReference.cache
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.AssemblyInfoInputs.cache
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.AssemblyInfo.cs
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.csproj.CoreCompileInputs.cache
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.csproj.CopyComplete
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.dll
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\refint\rabbitmq.merge.sort.producer.dll
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.pdb
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\rabbitmq.merge.sort.producer.genruntimeconfig.cache
+C:\source\rabbitmq.merge.sort\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\rabbitmq.merge.sort.producer\obj\Debug\net7.0\ref\rabbitmq.merge.sort.producer.dll

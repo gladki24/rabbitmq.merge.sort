@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2nF9/QcFeQkIo5rWnXoBMcDMvzdEnNZIrjB0ahcQjKrPeS96x9yHk7Q2EpXMBgnPtSGDwSkV4l6ikmfj+IpN+A==",
+  "success": true,
+  "projectFilePath": "C:\\source\\rabbitmq.merge.sort\\clients\\rabbitmq.merge.sort.producer\\rabbitmq.merge.sort.producer\\rabbitmq.merge.sort.producer.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.10.10.52:8000/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
