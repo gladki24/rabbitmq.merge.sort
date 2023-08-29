@@ -18,12 +18,12 @@ using var connection = connectionFactory.CreateConnection();
 using var channel = connection.CreateModel();
 
 channel.QueueDeclare(
-    queue: "hello_world_broker",
-    durable: true,
+    queue: "hello_world_broker_persistence",
+    durable: true, // messages are persist even if rabbitmq service will be stopped
     exclusive: false,
     autoDelete: false,
     arguments: null);
-    
+
 Console.WriteLine("Waiting for messages from broker: ");
 
 var consumer = new EventingBasicConsumer(channel);
@@ -31,13 +31,21 @@ consumer.Received += (model, ea) =>
 {
     var body = ea.Body.ToArray();
     var message = Encoding.UTF8.GetString(body);
+    
+    
+    // simulate long-run task
+    Thread.Sleep(1000);
     Console.WriteLine($"Received message: {message}");
+    
+    // confirm message has been handled by ack(nowledgement) message send back
+    // ack allow to notify rabbitmq about task has been processed sucessfully 
+    channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
 };
 
 channel.BasicConsume(
-    queue: "hello_world_broker",
-    autoAck: true,
+    queue: "hello_world_broker_persistence",
+    autoAck: false,
     consumer: consumer);
     
-Console.Write("Press [enter] to exit");
+Console.WriteLine("Press [enter] to exit");
 Console.ReadLine();

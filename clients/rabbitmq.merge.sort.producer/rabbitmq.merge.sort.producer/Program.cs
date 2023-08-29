@@ -15,7 +15,7 @@ using var brokerConnection = connectionFactory.CreateConnection();
 using var channel = brokerConnection.CreateModel();
 
 channel.QueueDeclare(
-    queue: "hello_world_broker",
+    queue: "hello_world_broker_persistence",
     durable: true,
     exclusive: false,
     autoDelete: false,
@@ -38,10 +38,14 @@ while (true)
     }
 
     var body = Encoding.UTF8.GetBytes(userInput);
+
+    var properties = channel.CreateBasicProperties();
+    properties.Persistent = true;
+    
     channel.BasicPublish(
         exchange: string.Empty,
-        routingKey: "hello_world_broker",
-        basicProperties: null,
+        routingKey: "hello_world_broker_persistence",
+        basicProperties: properties,
         body: body);
 }
 

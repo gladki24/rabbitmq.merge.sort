@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2nF9/QcFeQkIo5rWnXoBMcDMvzdEnNZIrjB0ahcQjKrPeS96x9yHk7Q2EpXMBgnPtSGDwSkV4l6ikmfj+IpN+A==",
+  "dgSpecHash": "b2nEYSteV8VwO4OC54Qx93+YzCIrZ0qLPs+haNtWDH0JwvSxuYdilaHKtDs6N4/BPr3WHYiXb31O67aM4y52Og==",
   "success": true,
   "projectFilePath": "C:\\source\\rabbitmq.merge.sort\\clients\\rabbitmq.merge.sort.producer\\rabbitmq.merge.sort.producer\\rabbitmq.merge.sort.producer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\seweryn.gladysz\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
+    "C:\\Users\\seweryn.gladysz\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\seweryn.gladysz\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
   "logs": [
     {
       "code": "NU1803",

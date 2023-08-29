@@ -7,7 +7,7 @@ networks:
 services:
     rabbitmq:
         image: rabbitmq:3-management
-        hostname: rabbitmq
+        hostname: custom_rabbit_host_name # in directory var/lib/rabbitmq/mnesia/ will be created folder rabbitmq@%hostname%
         container_name: rabbitmq
         ports:
             - 11111:15671
@@ -20,5 +20,5 @@ services:
             RABBITMQ_DEFAULT_VHOST: /
             RABBITMQ_ERLANG_COOKIE: SWQOKODSQALRPCLNMEQG
         volumes:
-            - ./broker_data:/mounted_volume
+            - ./broker_data:/var/lib/rabbitmq/mnesia/rabbit@custom_rabbit_host_name # mount to rabbit persistence folder
 
